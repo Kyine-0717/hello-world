@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>星游乐园 - 电脑正版游戏下载门户</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft Yahei",sans-serif;}
+        body{background:#12151c;color:#eee;min-width:1200px;}
+        /*导航栏样式*/
+        .header-nav{background:#1f2430;height:55px;line-height:55px;}
+        .nav-wrap{width:1200px;margin:0 auto;display:flex;justify-content:space-between;}
+        .logo{font-size:22px;font-weight:bold;color:#48b3ff;letter-spacing:2px;}
+        .nav-menu a{color:#cbd0db;text-decoration:none;padding:0 18px;font-size:15px;transition:0.3s;}
+        .nav-menu a:hover{color:#48b3ff;background:#2c3342;padding:16px 18px;}
+        /*轮播横幅*/
+        .banner{width:1200px;height:320px;margin:20px auto;background:#272c38;border-radius:6px;overflow:hidden;position:relative;}
+        .banner-text{position:absolute;left:40px;bottom:60px;}
+        .banner-text h2{font-size:30px;margin-bottom:12px;color:#fff;}
+        .banner-text p{color:#c8d2e3;margin-bottom:20px;}
+        .banner-text button{padding:10px 26px;background:#0088ff;border:none;color:#fff;border-radius:4px;cursor:pointer;font-size:15px;}
+        /*主容器布局*/
+        .container{width:1200px;margin:0 auto;display:flex;gap:25px;margin-bottom:40px;}
+        .main-left{width:880px;}
+        .aside-right{width:295px;}
+        /*通用板块标题*/
+        .block-title{font-size:18px;padding-left:12px;border-left:4px solid #0088ff;margin:30px 0 18px;}
+        /*游戏卡片排版*/
+        .game-grid{display:grid;grid-template-columns:repeat(4,200px);gap:20px;}
+        .game-card{background:#1e222b;border-radius:5px;overflow:hidden;}
+        .game-card .pic{height:130px;background:#333;}
+        .game-card .name{padding:10px;text-align:center;font-size:14px;}
+        .game-card .down{text-align:center;padding:8px;background:#293142;font-size:13px;color:#48b3ff;cursor:pointer;}
+        /*侧边排行榜*/
+        .rank-box{background:#1e222b;padding:15px;border-radius:5px;}
+        .rank-item{display:flex;justify-content:space-between;padding:10px 0;border-bottom:#2b303b 1px solid;font-size:14px;}
+        /*底部页脚*/
+        footer{background:#1f2430;padding:35px 0;text-align:center;color:#999;font-size:14px;}
+    </style>
+</head>
+<body>
+<!--顶部导航-->
+<div class="header-nav">
+    <div class="nav-wrap">
+        <div class="logo">星游乐园 GAME</div>
+        <div class="nav-menu">
+            <a href="#">首页</a>
+            <a href="#">单机游戏</a>
+            <a href="#">网络游戏</a>
+            <a href="#">休闲小游戏</a>
+            <a href="#">游戏资讯</a>
+            <a href="#">汉化补丁</a>
+            <a href="#">模拟器合集</a>
+        </div>
+    </div>
+</div>
+
+<!--首页轮播广告位-->
+<div class="banner">
+    <div class="banner-text">
+        <h2>3A大型单机热门新作现已上线</h2>
+        <p>电脑端完整版资源、汉化修改器、存档模组一站式获取</p>
+        <button>立即进入专区</button>
+    </div>
+</div>
+
+<!--主体内容区-->
+<div class="container">
+    <!--左侧主内容-->
+    <div class="main-left">
+        <h3 class="block-title">热门推荐 · 电脑大作</h3>
+        <div class="game-grid">
+            <div class="game-card">
+                <div class="pic"></div>
+                <div class="name">开放世界冒险</div>
+                <div class="down">查看下载</div>
+            </div>
+            <div class="game-card">
+                <div class="pic"></div>
+                <div class="name">硬核动作单机</div>
+                <div class="down">查看下载</div>
+            </div>
+            <div class="game-card">
+                <div class="pic"></div>
+                <div class="name">策略回合游戏</div>
+                <div class="down">查看下载</div>
+            </div>
+            <div class="game-card">
+                <div class="pic"></div>
+                <div class="name">竞速赛车合集</div>
+                <div class="down">查看下载</div>
+            </div>
+        </div>
+
+        <h3 class="block-title">单机游戏专区</h3>
+        <div class="game-grid">
+            <div class="game-card"><div class="pic"></div><div class="name">角色扮演RPG</div><div class="down">查看下载</div></div>
+            <div class="game-card"><div class="pic"></div><div class="name">生存建造类</div><div class="down">查看下载</div></div>
+            <div class="game-card"><div class="pic"></div><div class="name">射击FPS</div><div class="down">查看下载</div></div>
+            <div class="game-card"><div class="pic"></div><div class="name">解谜闯关</div><div class="down">查看下载</div></div>
+        </div>
+    </div>
+
+    <!--右侧侧边栏-->
+    <div class="aside-right">
+        <h3 class="block-title">热度排行榜</h3>
+        <div class="rank-box">
+            <div class="rank-item"><span>1</span><span>热门开放世界</span></div>
+            <div class="rank-item"><span>2</span><span>暗黑动作大作</span></div>
+            <div class="rank-item"><span>3</span><span>都市模拟经营</span></div>
+            <div class="rank-item"><span>4</span><span>科幻射击网游</span></div>
+            <div class="rank-item"><span>5</span><span>古风仙侠单机</span></div>
+        </div>
+
+        <h3 class="block-title">网站公告</h3>
+        <div class="rank-box">
+            <div class="rank-item">全站资源持续更新</div>
+            <div class="rank-item">新增游戏汉化补丁板块</div>
+            <div class="rank-item">PC模拟器整合包上线</div>
+        </div>
+    </div>
+</div>
+
+<!--页脚信息-->
+<footer>
+    <p>星游乐园电脑游戏门户 © 2026 版权所有 | 仅做游戏资讯科普交流</p>
+    <p style="margin-top:10px;">温馨提示：支持正版游戏，远离盗版破解资源</p>
+</footer>
+<script>
+//简易点击交互效果
+let downBtn = document.querySelectorAll('.down');
+downBtn.forEach(btn=>{
+    btn.onclick = ()=>{
+        alert("即将跳转游戏详情下载页面");
+    }
+})
+</script>
+</body>
+</html><!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>星游乐园 - 电脑正版游戏下载门户</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft Yahei",sans-serif;}
+        body{background:#12151c;color:#eee;min-width:1200px;}
+        /*导航栏样式*/
+        .header-nav{background:#1f2430;height:55px;line-height:55px;}
+        .nav-wrap{width:1200px;margin:0 auto;display:flex;justify-content:space-between;}
+        .logo{font-size:22px;font-weight:bold;color:#48b3ff;letter-spacing:2px;}
+        .nav-menu a{color:#cbd0db;text-decoration:none;padding:0 18px;font-size:15px;transition:0.3s;}
+        .nav-menu a:hover{color:#48b3ff;background:#2c3342;padding:16px 18px;}
+        /*轮播横幅*/
+        .banner{width:1200px;height:320px;margin:20px auto;background:#272c38;border-radius:6px;overflow:hidden;position:relative;}
+        .banner-text{position:absolute;left:40px;bottom:60px;}
+        .banner-text h2{font-size:30px;margin-bottom:12px;color:#fff;}
+        .banner-text p{color:#c8d2e3;margin-bottom:20px;}
+        .banner-text button{padding:10px 26px;background:#0088ff;border:none;color:#fff;border-radius:4px;cursor:pointer;font-size:15px;}
+        /*主容器布局*/
+        .container{width:1200px;margin:0 auto;display:flex;gap:25px;margin-bottom:40px;}
+        .main-left{width:880px;}
+        .aside-right{width:295px;}
+        /*通用板块标题*/
+        .block-title{font-size:18px;padding-left:12px;border-left:4px solid #0088ff;margin:30px 0 18px;}
+        /*游戏卡片排版*/
+        .game-grid{display:grid;grid-template-columns:repeat(4,200px);gap:20px;}
+        .game-card{background:#1e222b;border-radius:5px;overflow:hidden;}
+        .game-card .pic{height:130px;background:#333;}
+        .game-card .name{padding:10px;text-align:center;font-size:14px;}
+        .game-card .down{text-align:center;padding:8px;background:#293142;font-size:13px;color:#48b3ff;cursor:pointer;}
+        /*侧边排行榜*/
+        .rank-box{background:#1e222b;padding:15px;border-radius:5px;}
+        .rank-item{display:flex;justify-content:space-between;padding:10px 0;border-bottom:#2b303b 1px solid;font-size:14px;}
+        /*底部页脚*/
+        footer{background:#1f2430;padding:35px 0;text-align:center;color:#999;font-size:14px;}
+    </style>
+</head>
+<body>
+<!--顶部导航-->
+<div class="header-nav">
+    <div class="nav-wrap">
+        <div class="logo">星游乐园 GAME</div>
+        <div class="nav-menu">
+            <a href="#">首页</a>
+            <a href="#">单机游戏</a>
+            <a href="#">网络游戏</a>
+            <a href="#">休闲小游戏</a>
+            <a href="#">游戏资讯</a>
+            <a href="#">汉化补丁</a>
+            <a href="#">模拟器合集</a>
+        </div>
+    </div>
+</div>
+
+<!--首页轮播广告位-->
+<div class="banner">
+    <div class="banner-text">
+        <h2>3A大型单机热门新作现已上线</h2>
+        <p>电脑端完整版资源、汉化修改器、存档模组一站式获取</p>
+        <button>立即进入专区</button>
+    </div>
+</div>
+
+<!--主体内容区-->
+<div class="container">
+    <!--左侧主内容-->
+    <div class="main-left">
+        <h3 class="block-title">热门推荐 · 电脑大作</h3>
+        <div class="game-grid">
+            <div class="game-card">
+                <div class="pic"></div>
+                <div class="name">开放世界冒险</div>
+                <div class="down">查看下载</div>
+            </div>
+            <div class="game-card">
+                <div class="pic"></div>
+                <div class="name">硬核动作单机</div>
+                <div class="down">查看下载</div>
+            </div>
+            <div class="game-card">
+                <div class="pic"></div>
+                <div class="name">策略回合游戏</div>
+                <div class="down">查看下载</div>
+            </div>
+            <div class="game-card">
+                <div class="pic"></div>
+                <div class="name">竞速赛车合集</div>
+                <div class="down">查看下载</div>
+            </div>
+        </div>
+
+        <h3 class="block-title">单机游戏专区</h3>
+        <div class="game-grid">
+            <div class="game-card"><div class="pic"></div><div class="name">角色扮演RPG</div><div class="down">查看下载</div></div>
+            <div class="game-card"><div class="pic"></div><div class="name">生存建造类</div><div class="down">查看下载</div></div>
+            <div class="game-card"><div class="pic"></div><div class="name">射击FPS</div><div class="down">查看下载</div></div>
+            <div class="game-card"><div class="pic"></div><div class="name">解谜闯关</div><div class="down">查看下载</div></div>
+        </div>
+    </div>
+
+    <!--右侧侧边栏-->
+    <div class="aside-right">
+        <h3 class="block-title">热度排行榜</h3>
+        <div class="rank-box">
+            <div class="rank-item"><span>1</span><span>热门开放世界</span></div>
+            <div class="rank-item"><span>2</span><span>暗黑动作大作</span></div>
+            <div class="rank-item"><span>3</span><span>都市模拟经营</span></div>
+            <div class="rank-item"><span>4</span><span>科幻射击网游</span></div>
+            <div class="rank-item"><span>5</span><span>古风仙侠单机</span></div>
+        </div>
+
+        <h3 class="block-title">网站公告</h3>
+        <div class="rank-box">
+            <div class="rank-item">全站资源持续更新</div>
+            <div class="rank-item">新增游戏汉化补丁板块</div>
+            <div class="rank-item">PC模拟器整合包上线</div>
+        </div>
+    </div>
+</div>
+
+<!--页脚信息-->
+<footer>
+    <p>星游乐园电脑游戏门户 © 2026 版权所有 | 仅做游戏资讯科普交流</p>
+    <p style="margin-top:10px;">温馨提示：支持正版游戏，远离盗版破解资源</p>
+</footer>
+<script>
+//简易点击交互效果
+let downBtn = document.querySelectorAll('.down');
+downBtn.forEach(btn=>{
+    btn.onclick = ()=>{
+        alert("即将跳转游戏详情下载页面");
+    }
+})
+</script>
+</body>
+</html>
